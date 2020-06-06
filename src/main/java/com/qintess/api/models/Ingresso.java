@@ -27,7 +27,7 @@ public class Ingresso {
 	@ManyToOne
 	private Cliente cliente;
 	
-	@Column(nullable = false)
+	@Column
 	private String zona;
 
 	public Ingresso() {
